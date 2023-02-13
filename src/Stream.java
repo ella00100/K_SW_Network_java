@@ -6,12 +6,18 @@ import java.io.InputStream;
 public class Stream{
     public static void main(String[] args){
         try{
-            InputStream is = new FileInputStream("C:/Temp/test1.db");
+            InputStream is = new FileInputStream("C:/Temp/test2.db");
+
+            byte[] data = new byte[100];
 
             while(true){
-                int data = is.read(); // 1 byte 씩 읽어오기
-                if (data == -1) break; //파일 끝에 도달하면 break
-                System.out.println(data);}
+                int num = is.read(data);    // data를 읽고 반환
+                if(num == 1) break;
+
+                for(int i = 0; i < num; i++){ // 출력
+                    System.out.println(data[i]);
+                }
+            }
 
             is.close(); // 입력스트림 닫고 사용 메모리 해제
         }catch (FileNotFoundException e) {
