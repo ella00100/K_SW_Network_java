@@ -7,6 +7,6 @@ public class Pairi extends Pokemon {
 
     @Override
     public void attack(int idx) {
-        System.out.println("[파읠파읠] " + this.owner + "의 " + name + "가 "+ this.skills.get(idx) + "공격 시전!");
+        System.out.println("[파읠파읠] " + getOwner() + "의 " + name + "가 "+ getSkills().get(idx) + "공격 시전!");
     }
 }

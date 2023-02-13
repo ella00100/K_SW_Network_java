@@ -4,9 +4,25 @@ import java.util.StringTokenizer;
 
 //추상 클래스 포켓몬 생성
 public abstract class Pokemon {
-    protected String owner;
-    protected List<String> skills;
+    private String owner;
+    private List<String> skills;
     public static int count = 0;
+
+    //alt+ins
+    public String getOwner() {
+        return owner;
+    }
+    public void setOwner(String owner) {
+        this.owner = owner;
+    }
+    public List<String> getSkills() {
+        return skills;
+    }
+
+    public void setSkills(List<String> skills) {
+        this.skills = skills;
+    }
+
 
     public Pokemon(String owner, String skills) {
         this.owner = owner;
