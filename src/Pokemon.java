@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.StringTokenizer;
 
+//추상 클래스 포켓몬 생성
 public abstract class Pokemon {
     protected String owner;
     protected List<String> skills;

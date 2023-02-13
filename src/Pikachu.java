@@ -1,3 +1,4 @@
+//포케몬의 자식 클래스 피카츄 생성
 public class Pikachu extends Pokemon {
     private String name = "피카츄";
     public Pikachu(String owner, String skills) {
