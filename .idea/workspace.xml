@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c84caaa-d853-46ed-be18-2d663a964eb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day21/Lamda02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day21/lambda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day21/day21_HW.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21/Generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day21/Generic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21/Generic02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day21/Generic02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21/PostBox.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +43,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/network_java/project/network&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Lamda02">
-    <configuration name="Generic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Generic" />
-      <module name="network" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.day21_HW">
     <configuration name="Generic02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Generic02" />
       <module name="network" />
@@ -58,6 +53,19 @@
     </configuration>
     <configuration name="Lamda02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day21.Lamda02" />
+      <module name="network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day21_HW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day21.day21_HW" />
       <module name="network" />
       <extension name="coverage">
         <pattern>
@@ -97,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.day21_HW" />
         <item itemvalue="Application.Lamda02" />
         <item itemvalue="Application.lambda (1)" />
         <item itemvalue="Application.lambda" />
         <item itemvalue="Application.Generic02" />
-        <item itemvalue="Application.Generic" />
       </list>
     </recent_temporary>
   </component>
