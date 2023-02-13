@@ -1,20 +1,22 @@
-import java.io.FileOutputStream;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.OutputStream;
+import java.io.InputStream;
 
-public class Stream {
-    public static void main(String[] args) {
-        try {
-            //C:/Temp에 test1.db파일 생성
-            OutputStream os = new FileOutputStream("C:/Temp/test2.db");
+public class Stream{
+    public static void main(String[] args){
+        try{
+            InputStream is = new FileInputStream("C:/Temp/test1.db");
 
-            byte[] array = {10,20,30};
+            while(true){
+                int data = is.read(); // 1 byte 씩 읽어오기
+                if (data == -1) break; //파일 끝에 도달하면 break
+                System.out.println(data);}
 
-            os.write(array);   //배열이 모든 바이트 출력
-
-            os.flush();     // 내부 버퍼에 잔류하는 바이트 출력, 바이트 비움
-            os.close();     // 출력스트림을 닫아 사용한 메모리 해제
-        } catch (IOException e) { //파일을 생성 못하면 IOException 발생
+            is.close(); // 입력스트림 닫고 사용 메모리 해제
+        }catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e){
             e.printStackTrace();
         }
     }
