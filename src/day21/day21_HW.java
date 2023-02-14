@@ -67,8 +67,6 @@ public class day21_HW {
                 new Shape("삼각형","파란색", 3.4),
                 new Shape("사각형","빨간색", 12.6)
         };
-        for (int i=0; i<arr.length; i++) Shape.add(arr[i]);
-        System.out.println("사각형 : "+Shape.findShapesByType(Shape.shapes, "사각형"));
-        System.out.println("빨간 도형(면적<=12.0) : "+ Shape.findShapesByColorNArea(Shape.shapes, "빨간색", 12));
+
     }
 }

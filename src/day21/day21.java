@@ -1,3 +1,5 @@
+package day21;
+
 import java.io.BufferedReader;
 import java.net.URL;
 import java.net.URLConnection;

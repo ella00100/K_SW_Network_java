@@ -1,3 +1,5 @@
+package day21;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -18,7 +20,7 @@ public class SimpleEchoServer {
 
             try {
                 br = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
-                pw = new PrintWriter(clientSocket.getOutputStream(), true);
+                pw = new PrintWriter(clientSocket.getOutputStream(), true); //true -> 버퍼 자동 생성
                 String line;
                 while ((line = br.readLine()) != null) {
                     System.out.println("클라이언트로 부터 받은 메세지 : " + line);
