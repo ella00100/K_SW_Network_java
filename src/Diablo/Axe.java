@@ -1,6 +1,6 @@
-package day23;
+package Diablo;
 
-public class Axe implements WeaponBehavior{
+public class Axe implements WeaponBehavior {
     @Override
     public void useWeapon(){
         System.out.println("[도끼] 내려찍기");

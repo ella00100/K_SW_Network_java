@@ -1,4 +1,4 @@
-package day23;
+package Diablo;
 
 public abstract class Charater {
     protected int hp;
@@ -6,7 +6,9 @@ public abstract class Charater {
 
     WeaponBehavior weapon;      // Association(Aggregation)
 
-    abstract void info();
+    public void info(){
+        System.out.println("체력 : " + hp + "\n지능 : " + mp);
+    }
 
     public void setWeapon(WeaponBehavior weapon) {
         this.weapon = weapon;

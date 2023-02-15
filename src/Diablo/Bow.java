@@ -1,4 +1,4 @@
-package day23;
+package Diablo;
 
 public class Bow implements WeaponBehavior {
     @Override

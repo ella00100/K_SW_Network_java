@@ -1,5 +1,7 @@
 package day23;
 
+import Diablo.*;
+
 public class day23 {
     public static void main(String [] args){
         Sorceress s1 = new Sorceress();  // 캐릭터 객체 생성
@@ -17,5 +19,8 @@ public class day23 {
 
         s1.setWeapon(new Axe());
         s1.perfomWeapon();
+
+        b1.setWeapon(()-> System.out.println("신오브로 아이스볼 발사!"));
+        b1.perfomWeapon();
     }
 }

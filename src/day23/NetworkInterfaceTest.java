@@ -17,6 +17,12 @@ public class NetworkInterfaceTest {
                 for (InetAddress inetAddress : Collections.list(addresses)) {
                     System.out.printf("---InetAddress: %s\n", inetAddress);
                 }
+                Collections
+                        .list(addresses)
+                        .stream()
+                        .forEach(
+                                (inetAddress) -> {System.out.printf("IP 주소 : %s\n", inetAddress);}
+                        );
             }
         } catch(SocketException ex){
             System.out.println();
