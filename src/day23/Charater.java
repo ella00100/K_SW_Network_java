@@ -14,4 +14,5 @@ public abstract class Charater {
     public final void perfomWeapon(){
         weapon.useWeapon();
     }
+
 }

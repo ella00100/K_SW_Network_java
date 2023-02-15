@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c84caaa-d853-46ed-be18-2d663a964eb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day23/Amazon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23/Axe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23/Barbarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23/Bow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23/Charater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23/Orb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23/Sorceress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23/WeaponBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day23/day23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day23/NetworkInterfaceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23/Charater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day23/Charater.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,22 +34,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/network_java/project/network&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "create.test.in.the.same.root": "true",
+    "last_opened_file_path": "C:/network_java/project/network",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="Application.day23">
-    <configuration name="SimpleEchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day21.SimpleEchoClient" />
+}]]></component>
+  <component name="RunManager" selected="Application.NetworkInterfaceTest">
+    <configuration name="NetworkInterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day23.NetworkInterfaceTest" />
       <module name="network" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day21.*" />
+          <option name="PATTERN" value="day23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NetworkInterfaceTest" />
         <item itemvalue="Application.day23" />
         <item itemvalue="Application.day21_HW (1)" />
         <item itemvalue="Application.Thread1 (1)" />
         <item itemvalue="Application.Thread1" />
-        <item itemvalue="Application.SimpleEchoClient" />
       </list>
     </recent_temporary>
   </component>
