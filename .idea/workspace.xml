@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c84caaa-d853-46ed-be18-2d663a964eb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day23/StringBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day23/StringB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day23/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day23/StringBuilder.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
       <recent name="Diablo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NetworkInterfaceTest">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="NetworkInterfaceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day23.NetworkInterfaceTest" />
       <module name="network" />
@@ -66,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thread1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day22.Thread1" />
+    <configuration name="StringB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day23.StringB" />
       <module name="network" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day22.*" />
+          <option name="PATTERN" value="day23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Thread1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day22.Thread1" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day23.Test" />
       <module name="network" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day22.*" />
+          <option name="PATTERN" value="day23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.StringB" />
         <item itemvalue="Application.NetworkInterfaceTest" />
         <item itemvalue="Application.day23" />
         <item itemvalue="Application.day21_HW (1)" />
-        <item itemvalue="Application.Thread1 (1)" />
-        <item itemvalue="Application.Thread1" />
       </list>
     </recent_temporary>
   </component>
