@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c84caaa-d853-46ed-be18-2d663a964eb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day24/day24.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21/SimpleEchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day21/SimpleEchoServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
       <recent name="Diablo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.day24">
+  <component name="RunManager" selected="Application.SimpleEchoServer">
     <configuration name="SimpleEchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day21.SimpleEchoClient" />
       <module name="network" />
@@ -120,9 +120,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.day24" />
-        <item itemvalue="Application.SimpleEchoClient" />
         <item itemvalue="Application.SimpleEchoServer" />
+        <item itemvalue="Application.SimpleEchoClient" />
+        <item itemvalue="Application.day24" />
         <item itemvalue="Application.StreamTest" />
         <item itemvalue="Application.Test" />
       </list>
