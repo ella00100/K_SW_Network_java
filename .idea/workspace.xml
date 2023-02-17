@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c84caaa-d853-46ed-be18-2d663a964eb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day24/dateClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day24/dateServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25/ChatClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25/ChatServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25/HelperMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day24/day24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day24/day24.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -55,13 +56,26 @@
       <recent name="Diablo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dateClient">
-    <configuration name="SimpleEchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day21.SimpleEchoServer" />
+  <component name="RunManager" selected="Application.ChatClient">
+    <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day25.ChatClient" />
       <module name="network" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day21.*" />
+          <option name="PATTERN" value="day25.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day25.ChatServer" />
+      <module name="network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,19 +85,6 @@
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day24.Test" />
-      <module name="network" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day24.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TimeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day24.TimeClient" />
       <module name="network" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChatClient" />
+        <item itemvalue="Application.ChatServer" />
         <item itemvalue="Application.dateClient" />
         <item itemvalue="Application.dateServer" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TimeClient" />
-        <item itemvalue="Application.SimpleEchoServer" />
       </list>
     </recent_temporary>
   </component>
