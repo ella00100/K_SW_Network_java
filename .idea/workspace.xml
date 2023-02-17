@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c84caaa-d853-46ed-be18-2d663a964eb7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/day25/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25/PartsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day25/PartsServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25/ChatClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day25/ChatClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25/ChatServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day25/ChatServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day25/HelperMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day25/HelperMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +57,7 @@
       <recent name="Diablo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ChatClient">
+  <component name="RunManager" selected="Application.PartsClient">
     <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day25.ChatClient" />
       <module name="network" />
@@ -83,12 +84,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day24.Test" />
+    <configuration name="PartsClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day25.PartsClient" />
       <module name="network" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day24.*" />
+          <option name="PATTERN" value="day25.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartsServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day25.PartsServer" />
+      <module name="network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day25.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,26 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dateServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day24.dateServer" />
-      <module name="network" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day24.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PartsClient" />
+        <item itemvalue="Application.PartsServer" />
         <item itemvalue="Application.ChatClient" />
         <item itemvalue="Application.ChatServer" />
         <item itemvalue="Application.dateClient" />
-        <item itemvalue="Application.dateServer" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -142,5 +143,15 @@
       <updated>1676247726641</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.nio.BufferOverflowException" package="java.nio" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
