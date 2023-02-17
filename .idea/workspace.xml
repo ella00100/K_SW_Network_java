@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c84caaa-d853-46ed-be18-2d663a964eb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day25/ClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day25/PartsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day25/PartsServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HTTP/ClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HTTP/HTTPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HTTP/WebServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day25/HelperMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day25/HelperMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,13 +56,13 @@
       <recent name="Diablo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PartsClient">
+  <component name="RunManager" selected="Application.WebServer">
     <configuration name="ChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day25.ChatClient" />
       <module name="network" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day25.*" />
+          <option name="PATTERN" value="HTTP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,7 +75,7 @@
       <module name="network" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day25.*" />
+          <option name="PATTERN" value="HTTP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,7 +88,7 @@
       <module name="network" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day25.*" />
+          <option name="PATTERN" value="HTTP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,7 +101,7 @@
       <module name="network" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day25.*" />
+          <option name="PATTERN" value="HTTP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dateClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day24.dateClient" />
+    <configuration name="WebServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HTTP.WebServer" />
       <module name="network" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day24.*" />
+          <option name="PATTERN" value="HTTP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WebServer" />
         <item itemvalue="Application.PartsClient" />
         <item itemvalue="Application.PartsServer" />
         <item itemvalue="Application.ChatClient" />
         <item itemvalue="Application.ChatServer" />
-        <item itemvalue="Application.dateClient" />
       </list>
     </recent_temporary>
   </component>
