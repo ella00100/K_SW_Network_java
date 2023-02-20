@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c84caaa-d853-46ed-be18-2d663a964eb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day26/day26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day26/ServerSocketChannelTimeServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day26/SocketChannelTimeClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +56,7 @@
       <recent name="Diablo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.day26">
+  <component name="RunManager" selected="Application.SocketChannelTimeClient">
     <configuration name="AsyncServerSocketChannelServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day26.AsyncServerSocketChannelServer" />
       <module name="network" />
@@ -82,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HTTPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HTTP.HTTPClient" />
+    <configuration name="ServerSocketChannelTimeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day26.ServerSocketChannelTimeServer" />
       <module name="network" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HTTP.*" />
+          <option name="PATTERN" value="day26.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HTTP.WebServer" />
+    <configuration name="SocketChannelTimeClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day26.SocketChannelTimeClient" />
       <module name="network" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HTTP.*" />
+          <option name="PATTERN" value="day26.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SocketChannelTimeClient" />
+        <item itemvalue="Application.ServerSocketChannelTimeServer" />
         <item itemvalue="Application.day26" />
         <item itemvalue="Application.AsyncSocketChannelClient" />
         <item itemvalue="Application.AsyncServerSocketChannelServer" />
-        <item itemvalue="Application.HTTPClient" />
-        <item itemvalue="Application.WebServer" />
       </list>
     </recent_temporary>
   </component>
