@@ -10,9 +10,9 @@ public class WebServer {
         System.out.println("Web Server 시작");
         try (ServerSocket sc = new ServerSocket(80)) {
             while (true) {
-                System.out.println("Waiting for client request");
+                System.out.println("클라이언트 요청 대기 중...");
                 Socket remote = sc.accept();
-                System.out.println("Connection made");
+                System.out.println("연결 완료");
                 new Thread(new ClientHandler(remote)).start();
             }
         } catch (IOException ex) {
