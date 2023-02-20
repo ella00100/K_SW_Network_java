@@ -53,7 +53,7 @@ public class HelperMethods {
 
     public static String receiveMessage(SocketChannel sc) {
         try {
-            ByteBuffer byteBuffer = ByteBuffer.allocate(16);
+            ByteBuffer byteBuffer = ByteBuffer.allocate(3);
             String msg = "";
             while (sc.read(byteBuffer) > 0) {
                 char byteRead = 0x00;
@@ -65,6 +65,8 @@ public class HelperMethods {
                     }
                     msg += byteRead;
                 }
+                System.out.println(msg);
+                System.out.println(byteBuffer);
                 if (byteRead == 0x00) {
                     break;
                 }
