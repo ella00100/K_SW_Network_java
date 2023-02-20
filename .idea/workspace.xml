@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c84caaa-d853-46ed-be18-2d663a964eb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day25HW/ProductList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day25HW/ShopClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day25HW/ShopServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day21/Inetaddress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +55,20 @@
       <recent name="Diablo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShopServer">
+  <component name="RunManager" selected="Application.Inetaddress">
+    <configuration name="Inetaddress" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day21.Inetaddress" />
+      <module name="network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PartsClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day25.PartsClient" />
       <module name="network" />
@@ -110,26 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HTTP.WebServer" />
-      <module name="network" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HTTP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Inetaddress" />
         <item itemvalue="Application.ShopServer" />
         <item itemvalue="Application.ShopClient" />
         <item itemvalue="Application.PartsClient" />
         <item itemvalue="Application.PartsServer" />
-        <item itemvalue="Application.WebServer" />
       </list>
     </recent_temporary>
   </component>
