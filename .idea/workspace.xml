@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c84caaa-d853-46ed-be18-2d663a964eb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day26/ServerSocketChannelTimeServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day26/SocketChannelTimeClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21/SimpleEchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day21/SimpleEchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day21/SimpleEchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day21/SimpleEchoServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,39 +56,39 @@
       <recent name="Diablo" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SocketChannelTimeClient">
-    <configuration name="AsyncServerSocketChannelServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day26.AsyncServerSocketChannelServer" />
-      <module name="network" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day26.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AsyncSocketChannelClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day26.AsyncSocketChannelClient" />
-      <module name="network" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day26.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SimpleEchoClient">
     <configuration name="ServerSocketChannelTimeServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day26.ServerSocketChannelTimeServer" />
       <module name="network" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day26.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleEchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day21.SimpleEchoClient" />
+      <module name="network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day21.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleEchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day21.SimpleEchoServer" />
+      <module name="network" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day21.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleEchoClient" />
+        <item itemvalue="Application.SimpleEchoServer" />
         <item itemvalue="Application.SocketChannelTimeClient" />
         <item itemvalue="Application.ServerSocketChannelTimeServer" />
         <item itemvalue="Application.day26" />
-        <item itemvalue="Application.AsyncSocketChannelClient" />
-        <item itemvalue="Application.AsyncServerSocketChannelServer" />
       </list>
     </recent_temporary>
   </component>
