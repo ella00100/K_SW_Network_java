@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c84caaa-d853-46ed-be18-2d663a964eb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/day26/AsyncServerSocketChannelServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day26/AsyncSocketChannelClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HTTP/HTTPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HTTP/HTTPClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HTTP/WebServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HTTP/WebServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day26/AsyncSocketChannelClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day26/AsyncSocketChannelClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

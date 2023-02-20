@@ -38,5 +38,4 @@ public class AsyncSocketChannelClient {
             ex.printStackTrace();
         }
     }
-
 }
