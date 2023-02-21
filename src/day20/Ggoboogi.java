@@ -1,3 +1,4 @@
+package day20;
 //포켓몬의 자식 클래스 꼬부기 생성
 public class Ggoboogi extends Pokemon{
     private String name = "꼬부기";
